@@ -1,0 +1,8 @@
+@import "./global.css";
+@import "./typography.css";
+
+/* Paegs css files */
+@import "./pages/home.css";
+
+/* components css files */
+@import "./components/button.css";
