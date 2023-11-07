@@ -4,19 +4,27 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: 'poppins';
+}
+
 .navBar{
   display: flex;
+  background-color: #ffffff;
+  height: 50px;
+  align-items: center;
+  padding-left: 100px;
 }
 
 .logo{
-  background-color: green;
+  font-weight: bolder;
+  font-size: 18px;
 }
 
 .rightMenue{
   width: 100%;
-  background-color: red;
   right: 0px;
-  
+  margin-left: 500px;
 }
 
 .navBar ul {
@@ -27,8 +35,15 @@
 
 .navBar li{
   display: inline;
+  padding-left: 20px;
 }
 
-.register{
-  
+.register-nav{
+  margin-left: 20px;
+  padding: 10px 20px;
+  background-color: #4caf4f;
+  border: none;
+  border-radius: 2.5px;
+  color: white;
+  font-weight: bold;
 }
