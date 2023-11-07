@@ -1,0 +1,34 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navBar{
+  display: flex;
+}
+
+.logo{
+  background-color: green;
+}
+
+.rightMenue{
+  width: 100%;
+  background-color: red;
+  right: 0px;
+  
+}
+
+.navBar ul {
+  display: inline;
+  list-style-type: none;
+  text-align: center;
+}
+
+.navBar li{
+  display: inline;
+}
+
+.register{
+  
+}
