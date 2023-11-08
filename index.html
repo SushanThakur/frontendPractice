@@ -11,42 +11,78 @@
   <body>
     <div class="site-wrapper">
       <header class="site-header">
-        <div class="navBar">
-          <a href="#">
-            <img src="./assets/images/Icon.png" alt="icon" class="icon"
-          /></a>
-          <div class="logo"><a href="#">Nexcent</a></div>
-          <div class="rightMenue">
-            <ul>
-              <a href="#"><li>Home</li></a>
-              <a href="#"><li>Features</li></a>
-              <a href="#"><li>Community</li></a>
-              <a href="#"><li>Blog</li></a>
-              <a href="#"><li>Pricing</li></a>
-            </ul>
-            <button class="register-nav">Register Now →</button>
+        <div class="nav-container">
+          <div class="nav-wrapper">
+            <div class="nav-logo">
+              <a href="#">
+                <img src="./assets/images/Icon.png" alt="Icon" />
+              </a>
+              <a href="#">Nexcent</a>
+            </div>
+            <div class="options">
+              <img
+                id="open"
+                class="options-icon"
+                src="./assets/images/options.png"
+                alt="More Options" />
+              <img
+                id="close"
+                class="options-icon"
+                src="./assets/images/close.png"
+                alt="Close More Options" />
+            </div>
+            <div class="nav-links">
+              <a href="#">Home</a>
+              <a href="#">Features</a>
+              <a href="#">Community</a>
+              <a href="#">Blog</a>
+              <a href="#">Pricing</a>
+              <div class="nav-register">
+                <button id="nav-register-bttn">Register Now →</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="nav-mobile-container">
+          <div class="nav-mobile">
+            <div class="nav-mobile-links">
+              <a href="#">Home</a>
+              <a href="#">Features</a>
+              <a href="#">Community</a>
+              <a href="#">Blog</a>
+              <a href="#">Pricing</a>
+              <div class="nav-mobile-register">
+                <button id="nav-register-bttn">Register Now →</button>
+              </div>
+            </div>
           </div>
         </div>
       </header>
-      <!-- site-header -->
-
       <main class="site-content">
-        <lessons>Lessons and insights</lessons>
-        <br />
-        <years>from 8 years</years>
-        <br />
-        <where>
-          Where to grow your business as a photographer: site or social media?
-        </where>
-        <br />
-        <button class="register">Register</button>
-        <img
-          src="./assets/images/Illustration.png"
-          alt="Illustration"
-          class="illustration" />
+        <!-- site-content -->
+          <div class="content-wrapper">
+            <div id="content1" class="content">
+              <div class="cont">
+                <lessons>Lessons and insights</lessons>
+                <br />
+                <years>from 8 years</years>
+                <br />
+                <where>
+                  Where to grow your business as a photographer: site or social media?
+                </where>
+                <br />
+                <button id="register_bttn">Register</button>
+            </div>
+            <div class="illustration">
+              <img
+                src="./assets/images/Illustration.png" alt="Illustration" class="illustration" />
+              </div>
+            </div>
+            <div id="content2" class="content"></div>
+            <div id="content3" class="content"></div>
+          </div>
+        </div>
       </main>
-      <!-- site-content -->
-
       <footer class="site-footer"></footer>
       <!-- site-footer -->
     </div>
