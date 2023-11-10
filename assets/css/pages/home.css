@@ -67,3 +67,51 @@ where{
     margin-top: 20px;
   }
 }
+
+
+.clients{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  text-align: center;
+  height: 50vh;
+  margin-top: 50px;
+}
+
+.clients h2{
+  margin-top: 50px;
+  color: #4D4D4D;
+}
+.clients h3{
+  color: #4D4D4D;
+}
+
+.clients h5{
+  margin-top: 10px;
+  color: #717171;
+}
+
+.client-logo{
+  width: 90vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.suitable-container{
+  width: 100vh;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+@media screen and (max-width: 930px){
+  .clients{
+    margin-top: 150px;
+  }
+  .suitable-container{
+    flex-direction: column;
+  }
+}
