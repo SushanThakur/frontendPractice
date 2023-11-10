@@ -33,6 +33,7 @@ html{
   align-items: center;
   justify-content:space-between;
   flex-direction: row;
+  z-index: 999;
 }
 
 .nav-logo{
@@ -94,6 +95,7 @@ html{
   background-color: var(--nav-background-color);
   padding: 10px;
   z-index: 1;
+  animation: nav-drop 0.5s ease-in-out;
 }
 .nav-mobile-links {
   display: none;
@@ -137,5 +139,15 @@ html{
   }
   .nav-mobile-links{
     display: flex;
+    
+  }
+
+  @keyframes nav-drop {
+    from{
+      transform: translateY(-400px);
+    }
+    to{
+      transform: translateY(0px);
+    }
   }
 }
