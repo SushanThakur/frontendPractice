@@ -25,6 +25,7 @@ html{
 .nav-container a {
   text-decoration: none;
   color: inherit;
+  font-size: 16px;
 }
 
 .nav-wrapper{
@@ -36,8 +37,16 @@ html{
   z-index: 999;
 }
 
-.nav-logo{
-  padding: 10px 20px;
+.login{
+  display: flex;
+  min-width: 182px;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--bttn-primary-color);
+}
+
+button:hover{
+  cursor: pointer;
 }
 
 .nav-logo a { 
@@ -69,13 +78,9 @@ html{
   padding: 20px;
 }
 
-.nav-register{
-  
-}
-
-#nav-register-bttn{
-  width: 150px;
-  padding: 10px 20px;
+#nav-signup-bttn{
+  width: 90px;
+  padding: 10px 0px;
   background-color: var(--bttn-primary-color);
   border: none;
   border-radius: 5px;

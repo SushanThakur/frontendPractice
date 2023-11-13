@@ -11,19 +11,21 @@ h5{
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding-top: 100px;
   background-color: #F5F7FA;
+  min-height: 600px;
 }
 
 lessons{
   font-size: 50px;
   font-weight: bold;
   color: #4D4D4D;
+  line-height: 76px;
 }
 years{
   font-size: 50px;
   font-weight: bold;
   color: #4CAF4F;
+  line-height: 76px;
 }
 
 .content-wrapper h4{
@@ -31,6 +33,7 @@ years{
   font-weight: normal;
   padding: 20px 0px;
   color: #717171;
+  line-height: 24px;
 }
 
 #register_bttn{
@@ -84,13 +87,17 @@ years{
 
 .clients h2{
   color: #4D4D4D;
+  font-size: 36px;
+  line-height: 44px;
 }
 .clients h3{
   color: #4D4D4D;
+  line-height: 36px;
 }
 .clients h5{
   color: #717171;
   font-weight: normal;
+  line-height: 24px;
 }
 
 .client-logo{
