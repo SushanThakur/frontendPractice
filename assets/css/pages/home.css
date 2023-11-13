@@ -1,32 +1,36 @@
+section{
+  margin-top: 100px;
+}
 .site-content{
-  background-color: var(--hover-color);
-  padding-top: 20vh;
+  
 }
-
-.cont{
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  justify-content: start;
+h5{
+  font-weight: normal;
 }
-
-#content1{
+.content-wrapper{
   display: flex;
+  align-items: center;
   justify-content: space-around;
+  padding-top: 100px;
+  background-color: #F5F7FA;
 }
 
 lessons{
-  font-size: 34px;
+  font-size: 50px;
   font-weight: bold;
+  color: #4D4D4D;
 }
 years{
-  font-size: 34px;
+  font-size: 50px;
   font-weight: bold;
-  color: #4caf4f;
+  color: #4CAF4F;
 }
-where{
-  display: inline;
-  font-size: 15px;
+
+.content-wrapper h4{
+  font-size: 16px;
+  font-weight: normal;
+  padding: 20px 0px;
+  color: #717171;
 }
 
 #register_bttn{
@@ -44,8 +48,7 @@ where{
 }
 
 .illustration{  
-  transform: translateY(-10%);
-
+  width: 390px;
 }
 
 @media screen and (max-width: 930px){
@@ -72,25 +75,22 @@ where{
 
 .clients{
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  flex-direction: column;
+  min-height: 500px;
   text-align: center;
-  height: 50vh;
-  margin-top: 50px;
 }
 
 .clients h2{
-  margin-top: 50px;
   color: #4D4D4D;
 }
 .clients h3{
   color: #4D4D4D;
 }
-
 .clients h5{
-  margin-top: 10px;
   color: #717171;
+  font-weight: normal;
 }
 
 .client-logo{
@@ -98,21 +98,92 @@ where{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 20px;
-  margin-top: 30px;
 }
 
 .suitable-container{
-  width: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.organization, .associations, .groups{
+  display: flex;
+  flex-direction: column;
+  max-width: 250px;
+  align-items: center;
+}
+
+.unseen-spending-container{
+  display: flex;
+  justify-content: center;
+}
+
+.unseen-spending-container-float{
   display: flex;
   justify-content: space-between;
-  padding-top: 50px;
+  min-width: 1200px;
 }
-@media screen and (max-width: 930px){
-  .clients{
-    margin-top: 150px;
-  }
-  .suitable-container{
-    flex-direction: column;
-  }
+
+.illustration-unseen-spending{
+  width: 390px;
 }
+
+.unseen-spending-container h1{
+  font-size: 36px;
+  color: #4D4D4D;
+}
+
+.unseen-spending-container h5{
+  font-size: 14px;
+  color: #717171;
+  font-weight: normal;
+}
+
+.description-unseen-spending{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  max-width: 600px;
+}
+
+.learn-more{
+  padding: 10px 20px;
+  background-color: var(--bttn-primary-color);
+  border: none;
+  border-radius: 4px;
+  color: #333;
+  font-weight: bold;
+  font-family: 'Poppins';
+}
+
+.helping-local-container{
+  width: 100vw;
+  background-color: #F5F7FA;
+  display: flex;
+  justify-content: center;
+  padding: 40px 0px;
+}
+
+.helping-local-container-float{
+  display: flex;
+  justify-content: space-between;
+  min-width: 1200px;
+}
+
+helping, business{
+  font-size: 36px;
+  font-weight: bold;
+}
+helping{
+  color: #4D4D4D;
+}
+business{
+  color: #4CAF4F;
+}
+
+.helping-local-container h5{
+  color: #717171;
+}
+
+
