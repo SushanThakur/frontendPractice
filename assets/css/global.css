@@ -29,7 +29,7 @@ html{
 }
 
 .nav-wrapper{
-  width: 100vw;
+  min-width: 90vw;
   display: flex;
   align-items: center;
   justify-content:space-between;
@@ -49,25 +49,8 @@ button:hover{
   cursor: pointer;
 }
 
-.nav-logo a { 
-  font-size: 1.2rem;
-  font-weight: bold;
-}
-
-#logo{
-  
-}
-
 #open, #close{
   display: none;
-}
-
-.nav-links{
-  display: flex;
-  align-items: center;
-  justify-content: end;
-  padding-right: 2vw;
-  max-width: 670px;
 }
 
 .nav-links a:hover{
@@ -86,9 +69,6 @@ button:hover{
   border-radius: 5px;
   color: #ffffff;
   font-weight: bold;
-}
-#nav-register-bttn:hover{
-  cursor: pointer;
 }
 
 .nav-mobile-container{

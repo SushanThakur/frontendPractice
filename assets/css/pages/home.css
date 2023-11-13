@@ -190,7 +190,53 @@ business{
 }
 
 .helping-local-container h5{
-  color: #717171;
+  color: #18191F;
+  font-weight: 400;
 }
 
-
+.customers-container{
+  display: flex;
+  justify-content: center;
+}
+.customers-wrapper{
+  display: flex;
+  min-width: 1200px;
+  min-height: 400px;
+  align-items: center;
+  justify-content: space-between;
+}
+.description4{
+  display: flex;
+  height: 80%;
+  flex-direction: column;
+  justify-content: space-around;
+  max-width: 800px;
+}
+.description4 h5{
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 800px;
+}
+.description4 h4{
+  font-size: 20px;
+  color: var(--bttn-primary-color);
+  line-height: 28px;
+}
+.description4 a{
+  font-size: 16px;
+  text-decoration: none;
+  color: inherit;
+  font-weight: 400px;
+}
+.customers-footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.customers-footer a{
+  font-size: 20px;
+  color: var(--bttn-primary-color)
+}
+.customer-footer-logo{
+  width: 41px;
+}
